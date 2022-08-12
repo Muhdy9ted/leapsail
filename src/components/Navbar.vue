@@ -187,13 +187,13 @@
                         font-weight: 300;
                         font-size: 0.9375rem;
                         line-height: 1.375rem;
-                        color: $link-color !important;
+                        color: $font-color !important;
                         letter-spacing: 0.0625rem;
                     }
 
                     .dropdown{
                         background: transparent !important;
-                        color: $link-color !important;
+                        color: $font-color !important;
                         font-weight: 300;
                         font-size: 0.9375rem;
                         line-height: 1.375rem;
@@ -205,7 +205,7 @@
                         letter-spacing:  0.0625rem !important;
 
                         i{
-                            color: lighten($color: $link-color, $amount: 50);
+                            color: lighten($color: $font-color, $amount: 50);
                             vertical-align: baseline !important;
                             margin-top: 0.1875rem;
                             margin-left: 0.1875rem;                        
@@ -232,7 +232,7 @@
 
     .drawer{
         a{
-            color: $link-color !important;
+            color: $font-color !important;
         }
 
         i{
