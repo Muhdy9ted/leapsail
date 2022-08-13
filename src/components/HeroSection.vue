@@ -46,11 +46,12 @@
             height: 90vh;
             background-image: url("../assets/images/background-image.png");
             opacity: 0.2;
-            z-index: 2;
+            display: block;
         }
 
         .content{
-            z-index: 10;
+            position: relative;
+            // z-index: 10;
             .left{
 
                 .title{
